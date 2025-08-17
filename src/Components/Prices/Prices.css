@@ -1,0 +1,69 @@
+/* Container */
+.prices-container {
+  background-color: #f5f5ed; /* light cream background */
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.prices-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Title styling */
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title-icon {
+  color: #f1c40f; /* yellow icon */
+  font-size: 2rem;
+}
+
+.title h1 {
+  font-size: 2rem;
+  color: #1b5e20; /* deep green */
+  font-weight: bold;
+}
+
+/* Dropdown */
+.filter-dropdown {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Table */
+.prices-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.prices-table thead {
+  background-color: #ffecb3; /* light yellow header */
+}
+
+.prices-table th {
+  text-align: left;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.prices-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #f1e3a2;
+}
+
+/* Row hover effect */
+.prices-table tbody tr:hover {
+  background-color: #fff7d6;
+}

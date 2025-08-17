@@ -1,0 +1,103 @@
+.about-container {
+  padding: 50px 12%;
+  background-color: #f6f8f3;
+  font-family: Arial, sans-serif;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #184c34;
+  margin-bottom: 12px;
+}
+
+.about-description {
+  font-size: 1.15rem;
+  color: #333;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-highlight {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.about-image {
+  width: 350px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.about-highlight-text h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #184c34;
+  margin-bottom: 10px;
+}
+
+.about-highlight-text p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.team-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  background-color: white;
+  padding: 25px 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.team-card h3 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-highlight {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 400px;
+  }
+}
