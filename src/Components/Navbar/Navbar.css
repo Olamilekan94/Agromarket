@@ -45,3 +45,55 @@
 .nav-menu li a:hover {
   color: #ffcc00; /* highlight on hover */
 }
+/* Default (Desktop) styles remain as you have them */
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .feature-card {
+    padding: 15px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
